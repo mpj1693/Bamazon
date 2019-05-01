@@ -17,18 +17,18 @@ The goal was to create an Amazon-like store front using Node.js and MySQL.
 1. `BamazonCustomer.js`
 
     * Prints the products in the store.
-    ![List of Items](assets/images/capture1.PNG) ![List of Items](assets/images/capture2.PNG)
+    ![List of Items](assets/images/Capture1.PNG) ![List of Items](assets/images/Capture2.PNG)
 
     * Prompts customer which product they would like to purchase by ID number.
     * Once the customer selects the product correctly, prompts for the quantity.
     
 
       * If there is a sufficient quantity of the product in stock, it will return the total for that purchase.
-      ![Order Confirmed](assets/images/capture3.PNG)
+      ![Order Confirmed](assets/images/Capture3.PNG)
       
       
       * However, if there is not enough of the product in stock, it will tell the user that there isn't enough of the product and the           quantity available and let teh user choose the id and quantity again.
-      ![Insufficient Quantity](assets/images/capture4.PNG)
+      ![Insufficient Quantity](assets/images/Capture4.PNG)
       
       * If the purchase goes through, it updates the stock quantity to reflect the purchase in the MySQL database.
 
