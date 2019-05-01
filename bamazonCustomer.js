@@ -77,6 +77,8 @@ function selectProduct() {
         console.log(
           "Congratulations, your order of " + requested_qty + " " + requested_product_name + " is complete."
         )
+        var orderTotal = requested_product.price * requested_qty;
+        console.log("Your total is " + orderTotal + ".");
         return updateStock(requested_product, requested_qty);
       } else {
         console.log(
